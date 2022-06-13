@@ -23,3 +23,11 @@ let userFavColor = prompt('Mi diresti il tuo colore preferito?');
 document.getElementById('user-fav-color').innerHTML =userFavColor;
 
 console.log(userFavColor);
+
+
+// generatore password
+let password = 'Password suggerita:' + userName + userLastName + userFavColor + '22';
+
+document.getElementById('password').innerHTML = password;
+
+console.log(password);
